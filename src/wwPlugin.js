@@ -1,5 +1,8 @@
 import mapboxgl from 'mapbox-gl';
 
 export default {
-    mapboxgl,
+    mapboxgl: null,
+    onLoad() {
+        this.mapboxgl = mapboxgl;
+    },
 };
