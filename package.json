@@ -10,7 +10,9 @@
         "build": "weweb build",
         "serve": "weweb serve"
     },
-    "dependencies": {},
+    "dependencies": {
+        "mapbox-gl": "2.15.0"
+    },
     "devDependencies": {
         "@vue/eslint-config-prettier": "^6.0.0",
         "@weweb/cli": "latest",
